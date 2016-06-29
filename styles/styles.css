@@ -1,0 +1,241 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0px;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: -15px;
+    text-align: center;
+}
+h2 {
+    margin-top: 0;
+    font-size: 2em;
+    margin-bottom: 0px;
+    font-family: 'BioRhyme', serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: -10px;
+    color: #676078;
+}
+.h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.masthead {
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    background-color: white;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+ul {
+    padding-left: 0px;
+}
+li {
+    display: inline-block;
+}
+nav a {
+    color: #191919;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #676078;
+    font-family: 'BioRhyme', serif;
+    font-weight: 300;
+}
+a:hover {
+    /*transform: scale(1.2);*/
+    transition-duration: 1s;
+    color: #676078;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    height: 344px;
+    background-color: #191919;
+    align-items: center;
+    justify-content: center;
+}
+.hero1 {
+    background-image: url(./../images/hero_1.png);
+    background-size: cover;
+}
+.hero_title {
+    color: #fff;
+}
+.examples {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 20px;
+    background-color: red;
+    height: 300px;
+    align-items: top center;
+    justify-content: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.row {
+    /*outline: 5px solid red;*/
+    overflow: auto;
+}
+.column {
+    padding: 5px;
+    float: left;
+    width: 33.333%;
+    text-align: center;
+}
+div .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.p_title {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+/*P_TITLE ROLLOVER ANIMATION*/
+
+.column a {
+    color: black;
+}
+.column a:hover .p_title {
+    transition-duration: 1s;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/*DIGITAL WORK EXAMPLES*/
+
+.d1 {
+    background-image: url(./../images/dummy.jpg);
+    background-size: cover;
+}
+.d2 {
+    background-image: url(./../images/dummy2.png);
+    background-size: cover;
+}
+.d3 {
+    background-image: url(./../images/dummy3.png);
+    background-size: cover;
+}
+.see_all_container {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background-color: white;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+.see_all_container a {
+    color: #191919;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid #676078;
+    border-right: 1px solid #676078;
+    padding: 0px 10px;
+    font-family: 'BioRhyme', serif;
+    font-weight: 300;
+}
+
+/*PRINT SECTION*/
+
+.hero2 {
+    background-image: url(./../images/hero_2.png);
+    background-size: cover;
+}
+.p1 {
+    background-image: url(./../images/dummy.png);
+    background-size: cover;
+}
+.p2 {
+    background-image: url(./../images/hero_1.png);
+    background-size: cover;
+}
+.p3 {
+    background-image: url(./../images/hero_1.png);
+    background-size: cover;
+}
+
+/*RESPONSIVE ELEMENTS*/
+
+.responsive .row {
+    max-width: 960px;
+    justify-content: center;
+}
+.responsive .content {
+    background-color: #ededed;
+    min-height: 200px;
+    padding: 50px;
+}
+.fluid .relative .content {
+    padding: 30%;
+}
+
+/*.static .content {}
+@media screen and (max-width: 1100px) {
+    .responsive .column {
+        width: 50%;
+    }*/
+
+
+/*}*/
+
+@media screen and (max-width: 759px) {
+    .responsive .column {
+        width: 100%;
+    }
+}
+
+/*UTILITY CLASS*/
+
+
+/*
+.clearfix::before, .clearfix::after {
+    content: " ";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
