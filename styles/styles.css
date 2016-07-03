@@ -128,13 +128,72 @@ div.content {
     justify-content: center;
     padding: 50px 80px;
 }
-span.p_title {
-    background-color: rgba(255, 255, 255, 0.5);
+aside {
     padding: 10px;
+    /*width: 80%;*/
+    /*max-width: 900px;*/
+    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    /*align-items: center;*/
+}
+.p_title {
+    background-color: rgba(255, 255, 255, 0.5);
+    /*padding: 10px;*/
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    text-align: center;
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+}
+
+/*.project_container{
+    display: flex;
+    max-width: 900px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: grey;
+margin: auto;
+}*/
+
+div.p_title_article {
+    display: block;
+    width: 100%;
+    /*padding: 10px 20px 0px 20px;*/
+    font-size: 1.8em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
     vertical-align: middle;
+}
+p {
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'BioRhyme', serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    width: 100%;
+    display: block;
+}
+.bullet {
+    color: #676078;
+    font-weight: 800;
+}
+.work_example {
+    width: 100%;
+}
+.caption {
+    width: 100%;
+    background-color: #f7f7f7;
+    color: #191919;
+    padding: 10px 20px;
+    margin-top: -5px;
+    font-family: 'BioRhyme', serif;
+    font-weight: 400;
+    font-size: 0.7em;
+    margin-bottom: 15px;
+
 }
 
 /*P_TITLE ROLLOVER ANIMATION*/
@@ -203,6 +262,7 @@ span.p_title {
 }
 
 /*DIGITAL PAGE*/
+
 .digital_top {
     background-color: #191919;
 }
@@ -218,6 +278,7 @@ span.p_title {
     font-weight: 200;
     font-size: 1.1em;
 }
+
 /*RESPONSIVE ELEMENTS*/
 
 .responsive .row {
@@ -247,9 +308,45 @@ span.p_title {
         width: 100%;
     }
 }
-
 @media screen and (max-width: 759px) {
     nav {
-display: none;
+        display: none;
+    }
 }
+
+/*THIS IS ARTICLE RESPONSIVE STUFF*/
+
+@media screen and (max-width: 769px) {
+    aside {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 769px) {
+    div.p_title_article {
+        margin-top: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width: 769px) {
+    p {
+        margin-top: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media screen and (max-width: 769px) {
+    img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/*THIS IS THE CAPTION */
+@media screen and (max-width: 769px) {
+    .caption {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
