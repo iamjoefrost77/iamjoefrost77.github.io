@@ -21,7 +21,8 @@ h2 {
     margin-top: 0;
     font-size: 2em;
     margin-bottom: 0px;
-    font-family: 'BioRhyme', serif;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 2px;
     text-align: center;
@@ -121,16 +122,19 @@ section {
     width: 33.333%;
     text-align: center;
 }
-div .content {
+div.content {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 50px 80px;
 }
-.p_title {
+span.p_title {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 10px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
 }
 
 /*P_TITLE ROLLOVER ANIMATION*/
@@ -198,6 +202,22 @@ div .content {
     background-size: cover;
 }
 
+/*DIGITAL PAGE*/
+.digital_top {
+    background-color: #191919;
+}
+.section_title {
+    font-size: 1.8em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.design_tag {
+    color: #676078;
+    font-weight: 200;
+    font-size: 1.1em;
+}
 /*RESPONSIVE ELEMENTS*/
 
 .responsive .row {
@@ -207,7 +227,7 @@ div .content {
 .responsive .content {
     background-color: #ededed;
     min-height: 200px;
-    padding: 50px;
+    /*padding: 50px;*/
 }
 .fluid .relative .content {
     padding: 30%;
@@ -228,14 +248,8 @@ div .content {
     }
 }
 
-/*UTILITY CLASS*/
-
-
-/*
-.clearfix::before, .clearfix::after {
-    content: " ";
-    display: table;
+@media screen and (max-width: 759px) {
+    nav {
+display: none;
 }
-.clearfix::after {
-    clear: both;
 }
