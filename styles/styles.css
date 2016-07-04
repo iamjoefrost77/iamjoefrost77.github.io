@@ -99,6 +99,7 @@ display: none;
 .hero1 {
     background-image: url(./../images/hero_1.png);
     background-size: cover;
+    background-position: center;
 }
 .hero_title {
     color: #fff;
@@ -275,6 +276,7 @@ p {
 .hero2 {
     background-image: url(./../images/hero_2.png);
     background-size: cover;
+    background-position: center;
 }
 .p1 {
     background-image: url(./../images/dummy.png);
@@ -332,6 +334,11 @@ p {
 
 /*}*/
 
+/*OVERLAY MENU*/
+button {
+    background-color: transparent;
+    border: 0;
+}
 .overlay {
     background: rgba(0, 0, 0, 0.85);
     opacity: 0;
