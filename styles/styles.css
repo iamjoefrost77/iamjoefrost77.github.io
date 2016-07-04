@@ -365,8 +365,10 @@ button {
 
 nav.overlay a {
     color: white;
-    font-size: 40px;
+    font-size: 32px;
     padding: 16px 0;
+    border-right: 0px;
+    border-bottom: 1px solid white;
 }
 
 .overlay--active {
