@@ -357,10 +357,10 @@ button {
 
 .overlay-close {
     position: absolute;
-    top: 32px;
-    right: 32px;
+    top: 10%;
+    right: 10%;
     color: white;
-    font-size: 32px;
+    /*font-size: 32px;*/
 }
 
 nav.overlay a {
