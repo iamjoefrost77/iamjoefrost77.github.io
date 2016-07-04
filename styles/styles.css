@@ -340,7 +340,7 @@ button {
     border: 0;
 }
 .overlay {
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.9);
     opacity: 0;
     display: flex;
     position: fixed;
@@ -357,7 +357,7 @@ button {
 
 .overlay-close {
     position: absolute;
-    top: 58px;
+    top: 15px;
     right: 15px;
     color: white;
     /*font-size: 32px;*/
