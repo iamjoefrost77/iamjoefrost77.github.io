@@ -405,7 +405,7 @@ margin: auto;
     }
     @media screen and (max-width: 759px) {
         h1 {
-            font-size: 4em;
+            font-size: 3em;
         }
     }
     @media screen and (max-width: 928px) {
