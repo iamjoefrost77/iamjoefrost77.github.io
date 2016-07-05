@@ -21,25 +21,27 @@
 
 </head>
 
-<header>
-    <div class="masthead">
-        <a href="./index.html"> <div class="logo">
-            <img src="./images/iamjoefrostlogo.png" alt="" /></div></a>
-        <nav>
-            <ul>
-                <li><a href="./digital.html">Digital</a></li>
-                <li><a href="#">Print</a></li>
-                <li><a href="#">Art Direction</a></li>
-                <li><a href="http://www.google.com" target="_blank">Illustration</a></li>
-                <li><a href="mailto:iamjofrost@gmail.com?Subject=Hola%20Jo&body=Hi%20Jo%20saw%20site">Say Hi</a></li>
-
-            </ul>
-        </nav>
-    </div>
-</header>
-
 <body>
+    <header>
+        <div class="masthead">
+            <a class="logo" href="./index.html">
+                <img src="./images/iamjoefrostlogo.png" alt="" />
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="./digital.html">Digital</a></li>
+                    <li><a href="./print.html">Print</a></li>
+                    <li><a href="./artdirection.html">Art Direction</a></li>
+                    <li><a href="./branding.html">Branding</a></li>
+                    <li><a href="./illustration.html">Illustration</a></li>
+                    <li><a href="mailto:iamjofrost@gmail.com?Subject=iamjoefrost%20Enquiry">Say Hi</a></li>
+                </ul>
+            </nav>
 
+            <a href="#"> <div class="burger" id="burger">
+                <img src="./images/burger2.png" alt="" /></div></a>
+        </div>
+    </header>
     <main>
         <!-- DIGITAL DESIGN SECTION STARTS-->
         <div class="digital_top">
@@ -65,5 +67,21 @@
 </aside>
 
         <!-- DIGITAL BLOCK 2 -->
-</body>
-</html>
+
+                <!-- HIDDEN NAV -->
+                <nav id="overlay" class="overlay">
+                    <button class="overlay-close" id="overlayClose">
+                    <img src="./images/close.png" alt="X"/>
+                    </button>
+                    <a href="./digital.html">Digital</a>
+                    <a href="./print.html">Print</a>
+                    <a href="./artdirection.html">Art Direction</a>
+                    <a href="./branding.html">Branding</a>
+                    <a href="./illustration.html">Illustration</a>
+                    <a href="mailto:iamjofrost@gmail.com?Subject=Hola%20Jo&body=Hi%20Jo%20saw%20site">Say Hi</a>
+                    <!-- <a href="http://www.google.com" target="_blank">Illustration</a> -->
+                </nav>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+                <script src="./main.js"></script>
+            </body>
+            </html>

@@ -16,7 +16,6 @@
         margin-top: 0;
         margin-bottom: -15px;
         text-align: center;
-        color: #191919;
     }
     h2 {
         margin-top: 0;
@@ -103,7 +102,7 @@ div.hero {
 }*/
 
     .hero1 {
-        background-image: url(./../images/dummys/triangles.jpg);
+        background-image: url(./../images/hero_1.png);
         background-size: cover;
         background-position: center;
     }
@@ -124,9 +123,9 @@ div.hero {
     section {
         display: flex;
         justify-content: center;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
         flex-flow: row wrap;
         max-width: 960px;
         background-image: url(./../images/tile.png);
@@ -150,7 +149,7 @@ div.hero {
         overflow: auto;
     }
     .column {
-        padding: 5px;
+        padding: 10px;
         width: 33.333%;
         text-align: center;
     }
@@ -293,7 +292,7 @@ margin: auto;
     /*PRINT SECTION*/
 
     .hero2 {
-        background-image: url(./../images/dummys/triangles.jpg);
+        background-image: url(./../images/hero_2.png);
         background-size: cover;
         background-position: center;
     }
@@ -332,7 +331,7 @@ margin: auto;
     /*ART DIRECTION PAGE*/
 
     .hero3 {
-        background-image: url(./../images/dummys/triangles.jpg);
+        background-image: url(./../images/hero_3.png);
         background-size: cover;
         background-position: center;
     }
@@ -340,7 +339,7 @@ margin: auto;
     /*BRANDING PAGE*/
 
     .hero4 {
-        background-image: url(./../images/dummys/triangles.jpg);
+        background-image: url(./../images/hero_4.png);
         background-size: cover;
         background-position: center;
     }
@@ -348,7 +347,7 @@ margin: auto;
         /*ILLUSTRATION PAGE*/
 
         .hero5 {
-            background-image: url(./../images/dummys/triangles.jpg);
+            background-image: url(./../images/hero_5.png);
             background-size: cover;
             background-position: center;
         }
