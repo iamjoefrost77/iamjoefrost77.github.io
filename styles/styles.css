@@ -16,6 +16,7 @@
         margin-top: 0;
         margin-bottom: -15px;
         text-align: center;
+        color: #191919;
     }
     h2 {
         margin-top: 0;
@@ -102,7 +103,7 @@ div.hero {
 }*/
 
     .hero1 {
-        background-image: url(./../images/hero_1.png);
+        background-image: url(./../images/dummys/triangles.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -256,6 +257,18 @@ margin: auto;
         background-image: url(./../images/dummy3.png);
         background-size: cover;
     }
+    .d4 {
+        background-image: url(./../images/dummys/a.jpg);
+        background-size: cover;
+    }
+    .d5 {
+        background-image: url(./../images/dummys/b.png);
+        background-size: cover;
+    }
+    .d6 {
+        background-image: url(./../images/dummys/c.jpg);
+        background-size: cover;
+    }
     .see_all_container {
         display: flex;
         flex-direction: row;
@@ -280,16 +293,16 @@ margin: auto;
     /*PRINT SECTION*/
 
     .hero2 {
-        background-image: url(./../images/hero_2.png);
+        background-image: url(./../images/dummys/triangles.jpg);
         background-size: cover;
         background-position: center;
     }
     .p1 {
-        background-image: url(./../images/dummy.png);
+        background-image: url(./../images/dummys/e.jpg);
         background-size: cover;
     }
     .p2 {
-        background-image: url(./../images/hero_1.png);
+        background-image: url(./../images/dummys/f.jpg);
         background-size: cover;
     }
     .p3 {
@@ -301,6 +314,7 @@ margin: auto;
     .digital_top {
         background-color: #191919;
         align-self: stretch;
+        height: 70px;
     }
     .section_title {
         font-size: 1.8em;
@@ -318,7 +332,7 @@ margin: auto;
     /*ART DIRECTION PAGE*/
 
     .hero3 {
-        background-image: url(./../images/hero_3.png);
+        background-image: url(./../images/dummys/triangles.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -326,7 +340,7 @@ margin: auto;
     /*BRANDING PAGE*/
 
     .hero4 {
-        background-image: url(./../images/hero_4.png);
+        background-image: url(./../images/dummys/triangles.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -334,7 +348,7 @@ margin: auto;
         /*ILLUSTRATION PAGE*/
 
         .hero5 {
-            background-image: url(./../images/hero_5.png);
+            background-image: url(./../images/dummys/triangles.jpg);
             background-size: cover;
             background-position: center;
         }
