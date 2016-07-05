@@ -55,13 +55,11 @@ ul {
 li {
     display: inline-block;
 }
-
 .logo {
     position: absolute;
     left: 20px;
     top: 20px;
 }
-
 nav a {
     color: #191919;
     letter-spacing: 1px;
@@ -77,16 +75,14 @@ a:hover {
     transition-duration: 1s;
     color: #676078;
 }
-
 .burger {
     width: 60px;
     height: 60px;
     border-radius: 30px;
     background-color: #191919;
-align-self: flex-end;
-display: none;
+    align-self: flex-end;
+    display: none;
 }
-
 .hero {
     display: flex;
     flex-direction: row;
@@ -94,8 +90,15 @@ display: none;
     background-color: #191919;
     align-items: center;
     justify-content: center;
-        align-self: stretch;
+    align-self: stretch;
 }
+
+div.hero {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 .hero1 {
     background-image: url(./../images/hero_1.png);
     background-size: cover;
@@ -143,16 +146,16 @@ main {
 }
 .column {
     padding: 5px;
-        width: 33.333%;
-        text-align: center;
+    width: 33.333%;
+    text-align: center;
 }
 div.content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-
     /*padding: 50px 80px;*/
+    position: relative;
 }
 aside {
     padding: 10px;
@@ -171,8 +174,13 @@ aside {
     /*text-align: center;*/
     /*vertical-align: middle;*/
     width: 100%;
-align-self: baseline;
-padding: 10px;
+
+    align-self: baseline;
+    padding: 10px;
+    border-bottom: 1px solid #f3f3f3;
+    position: absolute;
+left: 0;
+bottom: 0;
 }
 
 /*.project_container{
@@ -222,7 +230,6 @@ p {
     font-weight: 400;
     font-size: 0.7em;
     margin-bottom: 15px;
-
 }
 
 /*P_TITLE ROLLOVER ANIMATION*/
@@ -334,7 +341,9 @@ p {
 
 /*}*/
 
+
 /*OVERLAY MENU*/
+
 button {
     background-color: transparent;
     border: 0;
@@ -354,7 +363,6 @@ button {
     transition: opacity 0.24s;
     visibility: hidden;
 }
-
 .overlay-close {
     position: absolute;
     top: 15px;
@@ -362,7 +370,6 @@ button {
     color: white;
     /*font-size: 32px;*/
 }
-
 nav.overlay a {
     color: white;
     font-size: 28px;
@@ -370,33 +377,27 @@ nav.overlay a {
     border-right: 0px;
     border-bottom: 1px solid white;
 }
-
 .overlay--active {
     opacity: 1;
     visibility: visible;
 }
-
 @media screen and (max-width: 759px) {
     .responsive .column {
         width: 100%;
     }
 }
-
 @media screen and (max-width: 900px) {
     nav {
         display: none;
     }
-
     .logo {
         flex: 1;
         position: static;
     }
-
     .burger {
         display: block;
         /*flex-grow: 2 */
     }
-
 }
 
 /*THIS IS ARTICLE RESPONSIVE STUFF*/
@@ -429,6 +430,7 @@ nav.overlay a {
 }
 
 /*THIS IS THE CAPTION */
+
 @media screen and (max-width: 769px) {
     .caption {
         padding-left: 10%;
