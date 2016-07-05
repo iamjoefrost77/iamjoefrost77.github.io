@@ -360,7 +360,7 @@ margin: auto;
     }
     .responsive .content {
         background-color: #ededed;
-        min-height: 200px;
+        min-height: 220px;
         /*padding: 50px;*/
     }
     .fluid .relative .content {
