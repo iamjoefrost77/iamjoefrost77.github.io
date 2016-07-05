@@ -92,16 +92,15 @@ a:hover {
     background-color: #191919;
     align-items: center;
     justify-content: center;
-    z-index: 1;
 }
 
 /*STICKY HERO */
-
+/*
 div.hero {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-}
+}*/
 .hero1 {
     background-image: url(./../images/hero_1.png);
     background-size: cover;
@@ -110,17 +109,7 @@ div.hero {
 .hero_title {
     color: #fff;
 }
-.teaser_container {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-color: red;
-/*background-image: url(./../images/tile.png);
-background-size: cover;*/
-z-index: 3;
-}
+
 
 .examples {
     width: 960px;
@@ -143,7 +132,6 @@ section {
     max-width: 960px;
     background-image: url(./../images/tile.png);
     background-size: cover;
-    z-index: 2;
 }
 .responsive {
     width: 100%;
