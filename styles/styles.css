@@ -247,26 +247,32 @@ margin: auto;
     .d1 {
         background-image: url(./../images/dummy.jpg);
         background-size: cover;
+        background-position: center;
     }
     .d2 {
         background-image: url(./../images/dummy2.png);
         background-size: cover;
+        background-position: center;
     }
     .d3 {
-        background-image: url(./../images/dummy3.png);
+        background-image: url(./../images/dummys/l.png);
         background-size: cover;
+        background-position: center;
     }
     .d4 {
-        background-image: url(./../images/dummys/a.jpg);
+        background-image: url(./../images/dummys/j.png);
         background-size: cover;
+        background-position: center;
     }
     .d5 {
-        background-image: url(./../images/dummys/b.png);
+        background-image: url(./../images/dummys/k.png);
         background-size: cover;
+        background-position: center;
     }
     .d6 {
         background-image: url(./../images/dummys/c.jpg);
         background-size: cover;
+        background-position: center;
     }
     .see_all_container {
         display: flex;
@@ -297,16 +303,34 @@ margin: auto;
         background-position: center;
     }
     .p1 {
-        background-image: url(./../images/dummys/e.jpg);
+        background-image: url(./../images/print/p1.png);
         background-size: cover;
+        background-position: center;
     }
     .p2 {
-        background-image: url(./../images/dummys/f.jpg);
+        background-image: url(./../images/print/p2.png);
         background-size: cover;
+        background-position: center;
     }
     .p3 {
-        background-image: url(./../images/hero_1.png);
+        background-image: url(./../images/print/p3.png);
         background-size: cover;
+        background-position: center;
+    }
+    .p4 {
+        background-image: url(./../images/print/p4.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .p5 {
+        background-image: url(./../images/print/p5.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .p6 {
+        background-image: url(./../images/print/p6.png);
+        background-size: cover;
+        background-position: center;
     }
     /*DIGITAL PAGE*/
 
@@ -335,6 +359,36 @@ margin: auto;
         background-size: cover;
         background-position: center;
     }
+    .ad1 {
+        background-image: url(./../images/direction/ad1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .ad2 {
+        background-image: url(./../images/direction/ad2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .ad3 {
+        background-image: url(./../images/direction/ad3.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .ad4 {
+        background-image: url(./../images/direction/ad4.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .ad5 {
+        background-image: url(./../images/direction/ad5.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .ad6 {
+        background-image: url(./../images/direction/ad6.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 
     /*BRANDING PAGE*/
 
@@ -343,11 +397,71 @@ margin: auto;
         background-size: cover;
         background-position: center;
     }
+    .b1 {
+        background-image: url(./../images/dummys/e.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .b2 {
+        background-image: url(./../images/branding/b2.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .b3 {
+        background-image: url(./../images/branding/b3.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .b4 {
+        background-image: url(./../images/branding/b4.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .b5 {
+        background-image: url(./../images/branding/b5.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .b6 {
+        background-image: url(./../images/branding/b6.png);
+        background-size: cover;
+        background-position: center;
+    }
 
         /*ILLUSTRATION PAGE*/
 
         .hero5 {
             background-image: url(./../images/hero_5.png);
+            background-size: cover;
+            background-position: center;
+        }
+        .i1 {
+            background-image: url(./../images/illustration/i1.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .i2 {
+            background-image: url(./../images/illustration/i2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .i3 {
+            background-image: url(./../images/illustration/i3.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .i4 {
+            background-image: url(./../images/illustration/i4.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .i5 {
+            background-image: url(./../images/illustration/i5.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .i6 {
+            background-image: url(./../images/illustration/i6.jpg);
             background-size: cover;
             background-position: center;
         }
